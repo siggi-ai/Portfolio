@@ -5,15 +5,14 @@ body {
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 auto;
-    color: white;
 }
 
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 auto;
-    color: white;
 }
 
 .top-page {
-    
+    display: flex;
+    color: white;
 }
