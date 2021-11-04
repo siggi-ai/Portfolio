@@ -27,6 +27,7 @@ a {
 .works:hover {
     color: rgb(104, 104, 230);
     font-size: 35px;
+    margin-top: 10px;
 }
 
 .contact {
