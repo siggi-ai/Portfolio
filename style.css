@@ -2,6 +2,12 @@ body {
     background-color: black;
 }
 
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    text-decoration: none;
+}
+
 .top-page {
     display: flex;
     color: white;
