@@ -2,9 +2,31 @@ body {
     background-color: black;
 }
 
+.top-page {
+    display: flex;
+    color: white;
+    transition: 0.3s;
+}
+
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0 auto;
+}
+
+.works:hover {
+    color: blue;
+}
+
+.contact:hover {
+    color: coral;
+}
+
+.picture:hover {
+    color: green;
+}
+
+.text:hover {
+    color: yellow;
 }
 
 .name {
@@ -12,7 +34,3 @@ body {
     margin: 0 auto;
 }
 
-.top-page {
-    display: flex;
-    color: white;
-}
