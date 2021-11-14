@@ -25,12 +25,15 @@ h2 {
 
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(194, 106, 255);
     padding: 66px;
     display: flex;
     float: left;
     line-height: 10%;
     margin-left: 20px;
+    height: 153px;
+    width: 265px;
+    color: #df0000;
 }
 
 .works {
@@ -72,9 +75,8 @@ h2 {
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(100, 100, 100);
-    padding: 20px;
-    height: 200px;
-    float: right;
+    padding: 85px;
+    height: 147px;
 }
 
 .link {
@@ -84,6 +86,8 @@ h2 {
 
 .jobtitle {
     color:rgb(104, 230, 125);
+    line-height: 50px;
+}
 }
 
 .menutable {
