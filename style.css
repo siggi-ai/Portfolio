@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 }
 
-h2 {
+h1 {
     color: rgb(255, 255, 255);
 }
 
@@ -30,6 +30,7 @@ h2 {
     display: flex;
     float: left;
     line-height: 10%;
+    margin-left: 20px;
 }
 
 .works {
@@ -38,7 +39,7 @@ h2 {
 
 .works:hover {
     color: rgb(104, 104, 230);
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .contact {
@@ -47,7 +48,7 @@ h2 {
 
 .contact:hover {
     color: coral;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .picture {
@@ -56,7 +57,7 @@ h2 {
 
 .picture:hover {
     color: rgb(55, 211, 55);
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .text {
@@ -65,7 +66,7 @@ h2 {
 
 .text:hover {
     color: rgb(250, 250, 68);
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .name {
