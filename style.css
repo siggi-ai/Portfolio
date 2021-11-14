@@ -11,15 +11,17 @@ a {
 .top-page {
     display: flex;
     color: white;
+    height: 100px;
+    display: flex;
 }
 
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0 auto;
     background-color: rgb(255, 0, 0);
-    padding: 20px;
+    padding: 66px;
     display: flex;
     float: left;
+    line-height: 10%;
 }
 
 .works {
@@ -60,10 +62,10 @@ a {
 
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0 auto;
     background-color: rgb(100, 100, 100);
     padding: 20px;
     height: 200px;
+    float: right;
 }
 
 .link {
