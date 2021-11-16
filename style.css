@@ -95,8 +95,13 @@ h2 {
     padding: 20px;
 }
 
+.spider {
+    width: 100px;
+}
+
 @media screen and (max-width: 720px) {
     .name {
       width: 250px;
+      height: 220px;
     }
   }
