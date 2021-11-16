@@ -95,3 +95,8 @@ h2 {
     padding: 20px;
 }
 
+@media screen and (max-width: 720px) {
+    .name {
+      width: 250px;
+    }
+  }
