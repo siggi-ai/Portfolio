@@ -81,6 +81,7 @@ h2 {
     height: 147px;
     margin-top: -50px;
     margin-left: -30px;
+    margin-right: 20px;
 }
 
 .link {
@@ -92,11 +93,7 @@ h2 {
     color:rgb(104, 230, 125);
     line-height: 50px;
 }
-}
 
-.menutable {
-    padding: 20px;
-}
 
 .spider {
     width: 100px;
