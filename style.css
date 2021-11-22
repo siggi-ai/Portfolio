@@ -17,6 +17,10 @@ h2 {
     color: rgb(153, 153, 153);  
 }
 
+.homeLink {
+    color: red;
+}
+
 .top-page {
     display: flex;
     color: white;
@@ -104,6 +108,7 @@ h2 {
 .contactpage {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 .worksText {
     font-family: Georgia, 'Times New Roman', Times, serif;
