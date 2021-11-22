@@ -104,6 +104,9 @@ h2 {
     float: left;
     margin-left: -40px;
 }
+.contactpage {
+    color: white;
+}
 
 @media screen and (max-width: 720px) {
     .name {
