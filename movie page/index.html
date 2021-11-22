@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+    <style>
+
+        #title {
+            font-family: Segoe Script;
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+        }
+
+        body {
+            background-image: url("https://www.maxpixel.net/static/photo/1x/Red-Curtain-Cinema-Background-Theater-Stripes-551797.jpg");
+            background-color: #000;
+            background-size: cover;
+        }
+
+        table {
+            background-color: #000; 
+            border: dashed 4px darkblue;
+            padding: 20px;
+        }
+
+        tr {
+            align: center;
+        }
+
+        img {
+        width: 100px,
+        height: auto
+        }
+
+        .blink {
+            animation-name: animation_blink;
+            animation-timing-function: linear;
+            animation-duration: 0.00001s; 
+            animation-iteration-count: infinite;
+            animation-delay: 5s;
+        }
+
+        @keyframes animation_blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.1; }
+            100% { opacity: 1; }    
+        }
+
+        header #title {
+            width: 100%;
+            height: 80px;
+            background-color: #000000;
+            position: fixed;
+            top: 0;
+            margin: -8px;
+            top: 8px;
+            font-family: Segoe Script;
+            color: white;
+            padding: 20px;
+/*             background-image: url(https://www.photohdx.com/images/2019/04/old-dark-brown-grung-wall-texture.jpg); */
+        }
+
+        footer {
+            width: 100%;
+            height: 45px;
+            background-color: #000000;
+            position: fixed;
+            bottom: 0;
+            margin: -8px;
+            font-family: Segoe Script;
+            color: rgb(138, 138, 138);
+            padding: 20px;
+            padding-left: 50px;
+        }
+
+        .text-under-table {
+            width: 60%;
+            text-align: center;
+            color: white;
+            text-indent:40px;
+            text-align: justify;
+            font-family: Georgia;
+            padding-left: 300px;
+        }
+
+        nav {
+            width: 200px;
+            height: 615px;
+            background-color: #000000;
+            position: fixed;
+            margin: -8px;
+            font-family: Segoe Script;
+            color: rgb(218, 218, 218);
+            float: left;
+            top: 128px;
+            padding-right: 50px;
+        }
+  
+
+        nav p {
+            padding-left: 50px;
+        }
+
+        a {
+            color: rgb(175, 255, 199);
+            font-family: Century Gothic;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <header>
+    
+<!-- headline -->
+<h1 id="title">M<span class="blink" style="text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6">y </span>Favourite Movies</span></h1>
+    
+    </header>
+
+
+    <nav>
+        <br>
+
+        <p>Movies</p>
+        
+            <ul style = list-style-type:circle>
+    
+                <li><a href=movie1.html>Ghost In The Shell</a></li>
+                <li><a href=movie2.html>TRON</a></li>
+                <li><a href=movie3.html>Teenage Mutant Ninja Turtles</a></li>
+                <li><a href=movie4.html>The Predatorl</a></li>
+                <li><a href=movie5.html>Ghostbusters</a></li>
+                <li><a href=movie6.html>Alita</a></li>
+    
+            </ul>
+        </nav>
+
+
+<!-- movie table -->
+    <table align="center">
+
+
+        <tr>
+    
+            <td><a href="movie1.html"><img src="https://cdn.traileraddict.com/content/paramount-pictures/ghost-in-the-shell-poster-3.jpg" height="250" alt="Ghost in the Shell Poster"></td> 
+
+            <td><a href="movie2.html"><img src="https://fanart.tv/fanart/movies/20526/movieposter/tron-legacy-54ece4d613f67.jpg" height="250" alt="Tron Poster"></td>
+
+            <td><a href="movie3.html"><img src="https://www.owlkids.com/wp-content/uploads/2014/08/Teenage-Mutant-Ninja-Turtles-2014-Movie-Poster.jpg" height="250"</td>
+           
+        <tr>
+            <td><a href="movie4.html"><img src="https://gfx.videobuster.de/archive/v/c9u4PMmbD-I_8bl9snCkFxAcz0lMkawriUyRjA2JTJGaW1hmSUyRmpwZWclMkbtZro5ZrdkZMwyZmPZYmU5YbAyizhjY2QxLmpwZyZyPXfvOA/predator-upgrade-poster.jpg" alt="Tron Poster" height="250"</td>
+           
+            <td><a href="movie5.html"><img src="https://static0.colliderimages.com/wordpress/wp-content/uploads/2015/12/ghostbusters-kate-mckinnon-poster.jpg" height="250"</td>
+
+            <td><a href="movie6.html"><img src="https://fanart.tv/fanart/movies/399579/movieposter/alita-battle-angel-5d203487a6741.jpg" height="250"</td>
+
+        </tr>
+
+        </tr>
+    </table>
+<!-- movie table end-->
+
+
+<!-- start text under table-->
+
+<br>
+
+<div class="text-under-table"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, inventore nesciunt! Reprehenderit possimus minima et nihil doloribus a voluptates aperiam assumenda pariatur rerum. Ut aliquam consectetur unde velit fugiat consequatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi autem rem atque odio itaque, est earum placeat? Consequuntur placeat facilis soluta similique, libero tempora, nesciunt distinctio quos iste possimus magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nulla minus reiciendis pariatur accusamus dignissimos repellendus saepe, commodi dicta aliquid ipsam cum? Excepturi itaque facilis error voluptas incidunt dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda temporibus eum eligendi asperiores nesciunt ipsa molestiae illum dicta explicabo iste, voluptatibus quaerat atque commodi voluptates excepturi, porro voluptatum ipsum. Alias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam exercitationem animi laudantium cum sit, vel nisi, doloribus eligendi deserunt voluptatum id corrupti, quae sed? Sequi laboriosam rerum mollitia sint explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis provident maxime doloremque eos cum reprehenderit temporibus unde, laboriosam similique perspiciatis, ipsum perferendis nam molestiae voluptatem. Optio nam possimus aperiam! Reprehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p> Libero sint cum veritatis, magnam dolore repellendus! Aliquam libero aperiam fugiat temporibus impedit cum doloribus numquam culpa odio, eum exercitationem praesentium vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla accusantium quae temporibus, facilis aut laudantium quisquam inventore provident corporis ex maiores sed dolorum veniam porro dicta. Unde, aliquid fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ea nulla quasi iure molestiae praesentium. Ipsam minus repellat itaque veniam ut quasi, tenetur et vitae! Unde maxime blanditiis necessitatibus explicabo! orem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, inventore nesciunt! Reprehenderit possimus minima et nihil doloribus a voluptates aperiam assumenda pariatur rerum. Ut aliquam consectetur unde velit fugiat consequatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi autem rem atque odio itaque, est earum placeat? Consequuntur placeat facilis soluta similique, libero tempora, nesciunt distinctio quos iste possimus magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p></p>Fuga nulla minus reiciendis pariatur accusamus dignissimos repellendus saepe, commodi dicta aliquid ipsam cum? Excepturi itaque facilis error voluptas incidunt dolorum tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda temporibus eum eligendi asperiores nesciunt ipsa molestiae illum dicta explicabo iste, voluptatibus quaerat atque commodi voluptates excepturi, porro voluptatum ipsum. Alias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam exercitationem animi laudantium cum sit, vel nisi, doloribus eligendi deserunt voluptatum id corrupti, quae sed? Sequi laboriosam rerum mollitia sint explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis provident maxime doloremque eos cum reprehenderit temporibus unde, laboriosam similique perspiciatis, ipsum perferendis nam molestiae voluptatem. Optio nam possimus aperiam! Reprehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint cum veritatis, magnam dolore repellendus! Aliquam libero aperiam fugiat temporibus impedit cum doloribus numquam culpa odio, eum exercitationem praesentium vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla accusantium quae temporibus, facilis aut laudantium quisquam inventore provident corporis ex maiores sed dolorum veniam porro dicta. Unde, aliquid fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ea nulla quasi iure molestiae praesentium. Ipsam minus repellat itaque veniam ut quasi, tenetur et vitae! Unde maxime blanditiis necessitatibus explicabo!</p></div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+<footer>© 지기</footer>
+
+</body>
+
+</html>
