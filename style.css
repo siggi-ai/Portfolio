@@ -1,6 +1,7 @@
 body {
     background-color: black;
     background-color: rgb(46, 27, 59);
+    background-image: url("/images/cobweb.jpg");
 }
 
 a {
