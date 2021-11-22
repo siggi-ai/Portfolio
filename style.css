@@ -97,11 +97,18 @@ h2 {
 
 .spider {
     width: 100px;
+    display: flex;
+    float: right;
 }
 
 @media screen and (max-width: 720px) {
     .name {
       width: 250px;
       height: 220px;
+    }
+    .title {
+      width: 45px;
+      font-size: 20px;
+      margin-right: 20px;
     }
   }
