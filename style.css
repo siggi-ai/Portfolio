@@ -103,6 +103,10 @@ h2 {
 }
 .contactpage {
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.worksText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @media screen and (max-width: 720px) {
@@ -117,10 +121,6 @@ h2 {
       width: 45px;
       font-size: 20px;
       margin-left: 10px;
-    }
-    .menutable {
-      display: flex;
-      flex-direction: column;
     }
     .table {
         display: flex;
