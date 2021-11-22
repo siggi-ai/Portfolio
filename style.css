@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    background-color: rgb(46, 27, 59);
 }
 
 a {
@@ -14,7 +15,7 @@ h1 {
 
 h2 {
     color: rgb(153, 153, 153);
-    background-color: rgb(46, 27, 59);
+    
 }
 
 .top-page {
@@ -113,6 +114,9 @@ h2 {
       width: 45px;
       font-size: 20px;
       margin-left: 10px;
-      
+    }
+    .menutable {
+      display: flex;
+      flex-direction: column;
     }
   }
