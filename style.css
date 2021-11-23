@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+.footnotes {
+    font-size: 14px;
+    color: rgb(24, 253, 112);
+}
+
 h1 {
     color: rgb(255, 255, 255);
 }
