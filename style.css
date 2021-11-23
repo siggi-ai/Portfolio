@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+.worklist {
+    color: white;
+}
+
 .footnotes {
     font-size: 14px;
     color: rgb(24, 253, 112);
