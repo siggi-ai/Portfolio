@@ -45,8 +45,6 @@ h2 {
 
 .works:hover {
     color: rgb(104, 104, 230);
-    font-size: 25px;
-    margin-top: 20px;
 }
 
 .contact {
@@ -55,8 +53,6 @@ h2 {
 
 .contact:hover {
     color: coral;
-    font-size: 25px;
-    margin-top: 15px;
 }
 
 .picture {
@@ -65,8 +61,6 @@ h2 {
 
 .picture:hover {
     color: rgb(255, 255, 137);
-    font-size: 25px;
-    margin-top: 15px;
 }
 
 .name {
@@ -112,7 +106,7 @@ h2 {
 
 @media screen and (max-width: 850px) {
     .name {
-      width: 275px;
+      width: 375px;
       height: 50px;
       font-size: 25px;
       margin-left: -50px;
