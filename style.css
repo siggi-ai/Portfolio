@@ -23,7 +23,13 @@ h2 {
     font-size: 20px;
     padding: 20px;
     display: flex;
+}
 
+.mondrianLink {
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
 }
 
 .top-page {
@@ -32,20 +38,6 @@ h2 {
     height: 100px;
     display: flex;
 }
-
-/* .title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    padding: 66px;
-    display: flex;
-    float: left;
-    line-height: 10%;
-    margin-left: 20px;
-    height: 153px;
-    width: 265px;
-    color: #df0000;
-    border-radius: 2%;
-} */
 
 .works {
     transition: 0.3s;
