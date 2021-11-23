@@ -20,6 +20,10 @@ h2 {
 
 .homeLink {
     color: red;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+
 }
 
 .top-page {
@@ -84,7 +88,7 @@ h2 {
     background-color: rgb(100, 100, 100);
     padding: 85px;
     height: 80px;
-    margin-top: -50px;
+    margin-top: -55px;
     margin-left: -30px;
     margin-right: 20px;
 }
@@ -115,22 +119,13 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 850px) {
     .name {
-      width: 330px;
+      width: 275px;
       height: 50px;
       font-size: 25px;
       margin-left: -50px;
       margin-top: -50px;
-    }
-    .title {
-      width: 45px;
-      font-size: 20px;
-      margin-left: 10px;
-    }
-    .table {
-        display: flex;
-        flex-direction: column;
     }
     .top-page {
         display: block;
