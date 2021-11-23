@@ -103,7 +103,7 @@ h2 {
 }
 
 .menulist{
-    margin-left: 20px;
+    margin-left: -40px;
     list-style: none;
 }
 
@@ -118,5 +118,9 @@ h2 {
     .top-page {
         display: block;
         margin-left: 0 auto;
+    }
+    .menulist {
+        margin-left: 60px;
+        margin-top: 40px;
     }
   }
