@@ -25,6 +25,10 @@ app.get("/contact", function(req, res) {
     res.render("contact.ejs");
 });
 
+app.get("/movies", function(req, res) {
+    res.render("movie-page/index.ejs");
+});
+
 app.listen(port, function() {
     console.log(`Listening on ${port}`);
 });
