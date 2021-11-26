@@ -17,12 +17,16 @@ app.get("/works", function(req, res) {
     res.render("works.ejs");
 });
 
-app.get("/picture", function(req, res) {
-    res.render("picture.ejs");
+app.get("/pictures", function(req, res) {
+    res.render("pictures.ejs");
 });
 
 app.get("/contact", function(req, res) {
     res.render("contact.ejs");
+});
+
+app.get("/mondrian", function(req, res) {
+    res.render("virtual-mondrian/mondrian.ejs");
 });
 
 app.get("/movies", function(req, res) {
