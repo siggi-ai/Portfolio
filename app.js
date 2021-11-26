@@ -1,18 +1,18 @@
 const express = require("express");
-const router = require("./router");
+const path = require("path");
 
+const port = 3000;
 const app = express();
-const port = process.env.PORT ||3000;
 
-app.set("view engine", "ejs");
-app.use(express.static(__dirname + "/public"));
+// const absolutePath = path.join(__dirname, "public");
+// const static = express.static(absolutePath);
+// app.use(static);
+app.use(express.static(path.join(__dirname, "public")));
 
-app.use(express.urlencoded({extended: true}));
-
-app.use(router);
-// SAME AS
-// app.use("/", router);
+app.get("/", function(req, res) {
+    res.send("Try the path /styles.css you will like it...");
+});
 
 app.listen(port, function() {
-    console.log(`Listening on ${port}`);
+    console.log(`listening on ${port}`);
 });

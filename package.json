@@ -1,11 +1,15 @@
 {
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
   "name": "PORTFOLIO",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,7 +22,5 @@
     "url": "https://github.com/siggi-ai/Portfolio/issues"
   },
   "homepage": "https://github.com/siggi-ai/Portfolio#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "description": ""
 }
