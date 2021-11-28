@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Road Rage', cursive;
     color: gray;
     text-decoration: none;
 }
@@ -73,7 +73,7 @@ h2 {
 }
 
 .name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Road Rage', cursive;
     background-color: rgb(100, 100, 100);
     padding: 85px;
     height: 80px;
