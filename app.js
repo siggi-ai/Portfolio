@@ -29,6 +29,10 @@ app.get("/mondrian", function(req, res) {
     res.render("virtual-mondrian/mondrian.ejs");
 });
 
+app.get("/comic1", function(req, res) {
+    res.render("comic1.ejs");
+});
+
 app.get("/movies", function(req, res) {
     res.render("movie-page/index.ejs");
 });
