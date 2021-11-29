@@ -13,8 +13,8 @@ app.get("/", function(req, res) {
     res.render("index.ejs");
 });
 
-app.get("/works", function(req, res) {
-    res.render("works.ejs");
+app.get("/webPages", function(req, res) {
+    res.render("webPages.ejs");
 });
 
 app.get("/pictures", function(req, res) {
