@@ -14,7 +14,7 @@
             font-size: 50px;
             color: #fff;
             text-align: center;
-            text-shadow: 0 0 5px #fff, 0 0 10px rgb(255, 255, 255), 0 0 15px #eb9800, 0 0 20px #ff9900, 0 0 25px #fd950c, 0 0 30px #be7017, 0 0 35px #815400;
+            text-shadow: 0 0 5px #fff, 0 0 10px rgb(131, 131, 131), 0 0 15px #b8b8b8, 0 0 20px #d4d4d4, 0 0 25px #cacaca, 0 0 30px #bebebe, 0 0 35px #9c9c9c;
         }
 
         body {
@@ -24,20 +24,21 @@
 
         iframe {
             border: dashed 4px darkblue;
-            margin-left: 50px;
+            margin-left: 50px; 
         }
 
         td {
             vertical-align: top;
         }
 
-        p {
+        .text-under-video {
             color: rgb(199, 199, 199);
             font-family: Georgia;
             font-size: 20px;
             text-indent:40px;
             text-align: justify;
             margin-right: 50px;
+            margin-left: 0px;
         }
 
         table {
@@ -58,6 +59,35 @@
 
         .back {
             margin-left: 100px;
+        }
+
+        .text-under-video-responsive {
+            color: rgb(199, 199, 199);
+            display: none;
+        }
+
+        @media screen and (max-width: 1200px) {
+            .text-under-video {
+                display: none;
+            }
+            a {
+                font-size: 30px;
+            }
+            iframe {
+                border: dashed 4px darkblue;
+                margin-left: 130px; 
+            }
+            .text-under-video-responsive {
+                color: rgb(199, 199, 199);
+                display: flex;
+                margin-left: 20px;
+            }
+            .paragraph {
+                color: rgb(199, 199, 199);
+                font-size: 30px;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
         }
 
     </style>
@@ -83,7 +113,7 @@
     
     </td>
 
-<td><p>
+    <td class="text-under-video"><p>
     A Predator ship crash-lands on Earth. U.S. Army Ranger sniper Quinn McKenna and his team are attacked by the Predator while on a hostage retrieval mission. McKenna incapacitates the Predator and has parts of its armor sent off by mail to prove the existence of extraterrestrial life. At the behest of government agent Will Traeger, McKenna is captured and held for examination.</p> 
     
     <p>Traeger also takes the Predator to a lab for experimentation and observation, recruiting evolutionary biologist Casey Bracket to study it. Bracket discovers that the Predator contains human DNA as part of his genetic makeup and her primary task is to discover how. The Predator awakes, breaks out of its restraints and kills both the lab workers and armed guards, but spares Bracket, the only unarmed person, before escaping.</p>
@@ -102,6 +132,22 @@
 
 </table>
 
+<td class="text-under-video-responsive"><p class="paragraph">
+    A Predator ship crash-lands on Earth. U.S. Army Ranger sniper Quinn McKenna and his team are attacked by the Predator while on a hostage retrieval mission. McKenna incapacitates the Predator and has parts of its armor sent off by mail to prove the existence of extraterrestrial life. At the behest of government agent Will Traeger, McKenna is captured and held for examination.</p> 
+    
+    <p class="paragraph">Traeger also takes the Predator to a lab for experimentation and observation, recruiting evolutionary biologist Casey Bracket to study it. Bracket discovers that the Predator contains human DNA as part of his genetic makeup and her primary task is to discover how. The Predator awakes, breaks out of its restraints and kills both the lab workers and armed guards, but spares Bracket, the only unarmed person, before escaping.</p>
+    
+
+    <br>
+
+        <ul class="paragraph">
+            <li><a href="https://www.imdb.com/title/tt3829266/?ref_=fn_al_tt_1">Boyd Holbrook</a></li>
+            <li><a href="https://www.imdb.com/title/tt3829266/?ref_=fn_al_tt_1">Trevante Rhodes</a</li>
+            <li><a href="https://www.imdb.com/title/tt3829266/?ref_=fn_al_tt_1">Jacob Tremblay</a></li>
+            <li><a href="https://www.imdb.com/title/tt3829266/?ref_=fn_al_tt_1">Olivia Munn</a></li>
+        </ul>
+
+        </td>
 
 </body>
 

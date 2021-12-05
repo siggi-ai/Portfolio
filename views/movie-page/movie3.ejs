@@ -7,40 +7,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Warnes&display=swap" rel="stylesheet"> 
 
-<style>
+    <style>
 
-#title {
-/*     color: rgb(0, 0, 172);
-    text-align: center; 
-    font-size: 50px; */
-    font-family: 'Warnes', cursive;
-    font-size: 50px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00e613, 0 0 20px #00d7e6, 0 0 25px #00e6db, 0 0 30px #00e6ad, 0 0 35px #00e64d;
-}
+        #title {
+            font-family: 'Warnes', cursive;
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 0 5px #fff, 0 0 10px rgb(131, 131, 131), 0 0 15px #b8b8b8, 0 0 20px #d4d4d4, 0 0 25px #cacaca, 0 0 30px #bebebe, 0 0 35px #9c9c9c;
+        }
 
-body {
-    background-color: #000;
-    background-image: url("https://i0.wp.com/andy-engel.com/wp-content/uploads/2016/01/Hintergrund-Ornamente-Andy-Homepage.jpg?ssl=1");
-}
+        body {
+            background-color: #000;
+            background-image: url("https://i0.wp.com/andy-engel.com/wp-content/uploads/2016/01/Hintergrund-Ornamente-Andy-Homepage.jpg?ssl=1");
+        }
 
-iframe {
+        iframe {
             border: dashed 4px darkblue;
-            margin-left: 50px;
+            margin-left: 50px; 
         }
 
         td {
             vertical-align: top;
         }
 
-        p {
+        .text-under-video {
             color: rgb(199, 199, 199);
             font-family: Georgia;
             font-size: 20px;
             text-indent:40px;
             text-align: justify;
             margin-right: 50px;
+            margin-left: 0px;
         }
 
         table {
@@ -63,9 +61,36 @@ iframe {
             margin-left: 100px;
         }
 
-</style>
+        .text-under-video-responsive {
+            color: rgb(199, 199, 199);
+            display: none;
+        }
 
-</style>
+        @media screen and (max-width: 1200px) {
+            .text-under-video {
+                display: none;
+            }
+            a {
+                font-size: 30px;
+            }
+            iframe {
+                border: dashed 4px darkblue;
+                margin-left: 130px; 
+            }
+            .text-under-video-responsive {
+                color: rgb(199, 199, 199);
+                display: flex;
+                margin-left: 20px;
+            }
+            .paragraph {
+                color: rgb(199, 199, 199);
+                font-size: 30px;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+        }
+
+    </style>
 
 </head>
 
@@ -87,7 +112,7 @@ iframe {
         
         </td>
 
-<td><p>April O'Neil, a local reporter for Channel 6 in New York City, investigates a crime wave by a group of criminals called the Foot Clan. At a dock at night, she sees the Foot raiding cargo containers. After an unseen vigilante attacks the thieves, April notices a symbol left behind. April's supervisor Bernadette Thompson and her coworkers are oblivious to her story.</p>
+        <td class="text-under-video"><p>April O'Neil, a local reporter for Channel 6 in New York City, investigates a crime wave by a group of criminals called the Foot Clan. At a dock at night, she sees the Foot raiding cargo containers. After an unseen vigilante attacks the thieves, April notices a symbol left behind. April's supervisor Bernadette Thompson and her coworkers are oblivious to her story.</p>
 
 <p>Frustrated by the vigilante, the Foot Clan's leader Shredder has the Foot Soldiers take hostages at a subway station in order to draw him out. April, at the scene, becomes a hostage herself. Four mysterious figures arrive, take out the Clan, and free the hostages. April follows them to a rooftop and is shocked to see that the vigilantes are anthropomorphic mutant turtles, causing her to pass out.</p>
     
@@ -104,6 +129,22 @@ iframe {
     </td>
 
 </table>
+
+<td class="text-under-video-responsive"><p class="paragraph">April O'Neil, a local reporter for Channel 6 in New York City, investigates a crime wave by a group of criminals called the Foot Clan. At a dock at night, she sees the Foot raiding cargo containers. After an unseen vigilante attacks the thieves, April notices a symbol left behind. April's supervisor Bernadette Thompson and her coworkers are oblivious to her story.</p>
+
+    <p class="paragraph">Frustrated by the vigilante, the Foot Clan's leader Shredder has the Foot Soldiers take hostages at a subway station in order to draw him out. April, at the scene, becomes a hostage herself. Four mysterious figures arrive, take out the Clan, and free the hostages. April follows them to a rooftop and is shocked to see that the vigilantes are anthropomorphic mutant turtles, causing her to pass out.</p>
+        
+    
+    <br>
+    
+            <ul class="paragraph">
+                <li><a href="https://www.imdb.com/title/tt1291150/?ref_=fn_al_tt_2">Megan Fox</a></li>
+                <li><a href="https://www.imdb.com/title/tt1291150/?ref_=fn_al_tt_2">Will Arnett</a></li>
+                <li><a href="https://www.imdb.com/title/tt1291150/?ref_=fn_al_tt_2">William Fichtner</a></li>
+                <li><a href="https://www.imdb.com/title/tt1291150/?ref_=fn_al_tt_2">Danny Woodburn</a></li>
+            </ul>
+    
+        </td>
 
 
 </body>

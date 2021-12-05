@@ -15,7 +15,7 @@
             color: #fff;
             text-align: center;
             text-shadow: 0 0 5px #fff, 0 0 10px rgb(131, 131, 131), 0 0 15px #b8b8b8, 0 0 20px #d4d4d4, 0 0 25px #cacaca, 0 0 30px #bebebe, 0 0 35px #9c9c9c;
-                }
+        }
 
         body {
             background-color: #000;
@@ -24,20 +24,21 @@
 
         iframe {
             border: dashed 4px darkblue;
-            margin-left: 50px;
+            margin-left: 50px; 
         }
 
         td {
             vertical-align: top;
         }
 
-        p {
+        .text-under-video {
             color: rgb(199, 199, 199);
             font-family: Georgia;
             font-size: 20px;
             text-indent:40px;
             text-align: justify;
             margin-right: 50px;
+            margin-left: 0px;
         }
 
         table {
@@ -60,6 +61,34 @@
             margin-left: 100px;
         }
 
+        .text-under-video-responsive {
+            color: rgb(199, 199, 199);
+            display: none;
+        }
+
+        @media screen and (max-width: 1200px) {
+            .text-under-video {
+                display: none;
+            }
+            a {
+                font-size: 30px;
+            }
+            iframe {
+                border: dashed 4px darkblue;
+                margin-left: 130px; 
+            }
+            .text-under-video-responsive {
+                color: rgb(199, 199, 199);
+                display: flex;
+                margin-left: 20px;
+            }
+            .paragraph {
+                color: rgb(199, 199, 199);
+                font-size: 30px;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+        }
 
     </style>
 
@@ -83,7 +112,7 @@
         
         <td>
 
-    <td><p>In 2563, 300 years after Earth was devastated by a catastrophic war, scientist Dr. Dyson Ido discovers a disembodied female cyborg with an intact human brain while scavenging for parts in the massive scrapyard of Iron City. Ido attaches a new cyborg body to the brain and names her "Alita" after his deceased daughter.</p>
+            <td class="text-under-video"><p>In 2563, 300 years after Earth was devastated by a catastrophic war, scientist Dr. Dyson Ido discovers a disembodied female cyborg with an intact human brain while scavenging for parts in the massive scrapyard of Iron City. Ido attaches a new cyborg body to the brain and names her "Alita" after his deceased daughter.</p>
         
         <p>Alita awakens with no memory of her past and quickly befriends Hugo, a young man who dreams of moving to the wealthy sky city of Zalem. </p> 
         
@@ -101,6 +130,23 @@
     </td>
 
 </table>
+
+<td class="text-under-video-responsive"><p class="paragraph">In 2563, 300 years after Earth was devastated by a catastrophic war, scientist Dr. Dyson Ido discovers a disembodied female cyborg with an intact human brain while scavenging for parts in the massive scrapyard of Iron City. Ido attaches a new cyborg body to the brain and names her "Alita" after his deceased daughter.</p>
+        
+    <p class="paragraph">Alita awakens with no memory of her past and quickly befriends Hugo, a young man who dreams of moving to the wealthy sky city of Zalem. </p> 
+    
+    <p class="paragraph">One night, Alita follows Ido; they are ambushed by a gang of cyborg serial killers. Ido is injured, and Alita instinctively fights using "Panzer-Kunst", a lost combat art for machine bodies. Alita believes that fighting will help her rediscover her past.</p>
+
+<br>
+
+    <ul class="paragraph">
+        <li><a href="https://www.imdb.com/title/tt0437086/?ref_=fn_al_tt_2">Rosa Salazar</a></li>
+        <li><a href="https://www.imdb.com/title/tt0437086/?ref_=fn_al_tt_2">Christoph Waltz</a></li>
+        <li><a href="https://www.imdb.com/title/tt0437086/?ref_=fn_al_tt_2">Jennifer Connelly</a></li>
+        <li><a href="https://www.imdb.com/title/tt0437086/?ref_=fn_al_tt_2">Mahershala Ali</a></li>
+    </ul>
+
+</td>
 
 </body>
 
