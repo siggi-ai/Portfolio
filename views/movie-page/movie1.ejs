@@ -31,13 +31,14 @@
             vertical-align: top;
         }
 
-        p {
+        .text-under-video {
             color: rgb(199, 199, 199);
             font-family: Georgia;
             font-size: 20px;
             text-indent:40px;
             text-align: justify;
             margin-right: 50px;
+            margin-left: 0px;
         }
 
         table {
@@ -58,6 +59,35 @@
 
         .back {
             margin-left: 100px;
+        }
+
+        .text-under-video-responsive {
+            color: rgb(199, 199, 199);
+            display: none;
+        }
+
+        @media screen and (max-width: 1200px) {
+            .text-under-video {
+                display: none;
+            }
+            a {
+                font-size: 30px;
+            }
+            iframe {
+                border: dashed 4px darkblue;
+                margin-left: 130px; 
+            }
+            .text-under-video-responsive {
+                color: rgb(199, 199, 199);
+                display: flex;
+                margin-left: 20px;
+            }
+            .paragraph {
+                color: rgb(199, 199, 199);
+                font-size: 30px;
+                margin-left: 80px;
+                margin-right: 80px;
+            }
         }
 
     </style>
@@ -85,7 +115,7 @@
     
     </td>
 
-    <td>
+    <td class="text-under-video">
 
         <p>In the near future, humans are augmented with cybernetic improvements to traits such as vision, strength, and intelligence. Augmentation developer Hanka Robotics establishes a secret project to develop an artificial body, or "shell", that can integrate a human brain rather than an AI.</p>
             
@@ -110,6 +140,25 @@
 </td>
 
 </table>
+
+<p class="text-under-video-responsive">
+
+    <p class="paragraph">In the near future, humans are augmented with cybernetic improvements to traits such as vision, strength, and intelligence. Augmentation developer Hanka Robotics establishes a secret project to develop an artificial body, or "shell", that can integrate a human brain rather than an AI.</p>
+        
+    <p class="paragraph">Mira Killian, the sole survivor of a cyberterrorist attack which killed her parents, is chosen as the test subject after her body is damaged beyond repair. Over the objections of her designer Dr. Ouelet, Hanka Robotics CEO, Cutter, decides to use Killian as a counter-terrorism operative.</p>
+
+<br>
+
+    <ul class="paragraph">
+        <li><a href="https://www.imdb.com/title/tt1219827/?ref_=fn_al_tt_1">Scarlett Johansson</a></li>
+        <li><a href="https://www.imdb.com/title/tt1219827/?ref_=fn_al_tt_1">Pilou Asbaek</a></li>
+        <li><a href="https://www.imdb.com/title/tt1219827/?ref_=fn_al_tt_1">Takeshi Kitano</a></li>
+        <li><a href="https://www.imdb.com/title/tt1219827/?ref_=fn_al_tt_1">Juliette Binoche</a></li>
+    </ul>
+
+
+</p>
+
 
 
 </body>
