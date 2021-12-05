@@ -457,14 +457,15 @@ body {
 }
 
 .Link {
-    font-size: 30px;
+    font-size: 50px;
     color: red;
+    padding: 20px;
+    display: flex;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (orientation : portrait) and (max-width: 1200px) {
     .container {
-        margin-left: 20px;
-        background-color: #000;
+        margin-left: 90px;
     }
   }
 
@@ -477,9 +478,11 @@ body {
 
 <body>
 
+    <a href="/pictures" class="Link">🠔</a>
+
     <div class="container">
 
-        <a href="/pictures" class="Link"><div class="a"><br>&nbsp;home</div></a>
+        <div class="a"></div>
         <div class="b"></div>
         <div class="c"></div>
         <div class="d"></div>
