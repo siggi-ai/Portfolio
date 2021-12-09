@@ -105,12 +105,20 @@ h2 {
     font-size: 40px;
     margin-left: 20px;
 }
+.aboutpage {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
 .worksText {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .menulist{
     margin-left: -40px;
+    margin-top: -10px;
     list-style: none;
 }
 
