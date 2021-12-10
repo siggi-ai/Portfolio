@@ -76,7 +76,8 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(100, 100, 100);
     padding: 85px;
-    height: 80px;
+    height: 45px;
+    width: 284%;
     margin-top: -55px;
     margin-left: -30px;
     margin-right: 20px;
@@ -89,7 +90,7 @@ h2 {
 
 .jobtitle {
     color:rgb(104, 230, 125);
-    line-height: 50px;
+    line-height: 0px;
 }
 
 
@@ -117,8 +118,8 @@ h2 {
 }
 
 .menulist{
-    margin-left: -40px;
-    margin-top: -10px;
+    margin-left: -415px;
+    margin-top: 160px;
     list-style: none;
 }
 
