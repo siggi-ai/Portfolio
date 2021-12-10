@@ -99,6 +99,8 @@ h2 {
     display: flex;
     float: left;
     margin-left: -40px;
+    margin-left: 60px;
+    margin-top: 295px;
 }
 .contactpage {
     color: white;
@@ -123,7 +125,7 @@ h2 {
     list-style: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 540px) {
     .name {
       width: 375px;
       height: 50px;
@@ -136,7 +138,7 @@ h2 {
         margin-left: 0 auto;
     }
     .menulist {
-        margin-left: 60px;
+        margin-left: -50px;
         margin-top: 40px;
     }
   }
