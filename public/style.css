@@ -72,6 +72,14 @@ h2 {
     color: rgb(255, 255, 137);
 }
 
+.about {
+    transition: 0.3s;
+}
+
+.about:hover {
+    color:rgb(43, 226, 165);
+}
+
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(100, 100, 100);
