@@ -37,6 +37,14 @@ app.get("/comic1", function(req, res) {
     res.render("comic1.ejs");
 });
 
+app.get("/comic2", function(req, res) {
+    res.render("comic2.ejs");
+});
+
+app.get("/comic3", function(req, res) {
+    res.render("comic3.ejs");
+});
+
 app.get("/movies", function(req, res) {
     res.render("movie-page/index.ejs");
 });
