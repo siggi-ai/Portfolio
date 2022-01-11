@@ -45,6 +45,14 @@ app.get("/comic3", function(req, res) {
     res.render("comic3.ejs");
 });
 
+app.get("/texte", function(req, res) {
+    res.render("texte.ejs");
+});
+
+app.get("/text1", function(req, res) {
+    res.render("text1.ejs");
+});
+
 app.get("/movies", function(req, res) {
     res.render("movie-page/index.ejs");
 });

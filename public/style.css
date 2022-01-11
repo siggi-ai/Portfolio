@@ -113,6 +113,12 @@ h2 {
     animation-duration: 1s;
     transform: scaleX(-1);
 }
+.selfportrait {
+    height: 300px; 
+    margin-top: 180px; 
+    margin-left: -180px;
+}
+
 @keyframes spidey {
     0%   {margin-left:275px; margin-top:-240px;}
     100% {margin-left:275px; margin-top:-190px;}
@@ -157,7 +163,10 @@ h2 {
     .menulist {
         /* margin-left: -50px; */
         margin-left: 50px;
-        position: fixed;
+        position: relative;
         margin-top: 40px;
     }
+    .selfportrait {
+        margin-left: 100px;
+        margin-top: 20px;
   }
