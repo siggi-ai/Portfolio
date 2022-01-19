@@ -49,6 +49,14 @@ app.get("/auto", function(req, res) {
     res.render("auto.ejs");
 });
 
+app.get("/uni1", function(req, res) {
+    res.render("uni1.ejs");
+});
+
+app.get("/uni2", function(req, res) {
+    res.render("uni2.ejs");
+});
+
 app.get("/texte", function(req, res) {
     res.render("texte.ejs");
 });
