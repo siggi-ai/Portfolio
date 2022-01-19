@@ -57,6 +57,34 @@ app.get("/uni2", function(req, res) {
     res.render("uni2.ejs");
 });
 
+app.get("/anni", function(req, res) {
+    res.render("anni.ejs");
+});
+
+app.get("/ice", function(req, res) {
+    res.render("ice.ejs");
+});
+
+app.get("/frog", function(req, res) {
+    res.render("frog.ejs");
+});
+
+app.get("/room", function(req, res) {
+    res.render("room.ejs");
+});
+
+app.get("/spaceship", function(req, res) {
+    res.render("spaceship.ejs");
+});
+
+app.get("/Linda", function(req, res) {
+    res.render("Linda.ejs");
+});
+
+app.get("/chemicals", function(req, res) {
+    res.render("chemicals.ejs");
+});
+
 app.get("/texte", function(req, res) {
     res.render("texte.ejs");
 });
