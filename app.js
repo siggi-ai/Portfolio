@@ -45,6 +45,10 @@ app.get("/comic3", function(req, res) {
     res.render("comic3.ejs");
 });
 
+app.get("/auto", function(req, res) {
+    res.render("auto.ejs");
+});
+
 app.get("/texte", function(req, res) {
     res.render("texte.ejs");
 });

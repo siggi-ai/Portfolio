@@ -6,13 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body>
+<body class="picturePage">
     <a href="/" class="homeLink">home</a>
     <a href="/mondrian" class="mondrianLink about">Virtual Mondrian</a>
     <a href="/comic1" class="mondrianLink about">comic1</a>
     <a href="/comic2" class="mondrianLink about">comic2</a>
     <a href="/comic3" class="mondrianLink about">comic3</a>
+    <a href="/auto" class="mondrianLink about">auto</a>
 </body>
 </html>
+
+<style>	
+.picturePage {
+    font-size: 20px;
+}
+body {
+    background-color: black;
+    background-color: rgb(46, 27, 59);
+    background-image: url("/images/cobweb_blue.png");
+}
+.homeLink {
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+}
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    text-decoration: none;
+}
+.mondrianLink {
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    display: flex;
+    transition: 0.3s;
+}
+.mondrianLink:hover {
+    color: rgb(104, 230, 125);
+}
+</style>
