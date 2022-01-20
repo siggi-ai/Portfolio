@@ -85,6 +85,10 @@ app.get("/chemicals", function(req, res) {
     res.render("chemicals.ejs");
 });
 
+app.get("/t", function(req, res) {
+    res.render("t.ejs");
+});
+
 app.get("/texte", function(req, res) {
     res.render("texte.ejs");
 });
