@@ -77,18 +77,6 @@ app.get("/spaceship", function(req, res) {
     res.render("spaceship.ejs");
 });
 
-app.get("/Linda", function(req, res) {
-    res.render("Linda.ejs");
-});
-
-app.get("/chemicals", function(req, res) {
-    res.render("chemicals.ejs");
-});
-
-app.get("/t", function(req, res) {
-    res.render("t.ejs");
-});
-
 app.get("/texte", function(req, res) {
     res.render("texte.ejs");
 });
