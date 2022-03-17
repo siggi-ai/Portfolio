@@ -5,6 +5,13 @@ body {
     font-family: 'Henny Penny', cursive;
 }
 
+.selfdescription {
+    font-family: 'Henny Penny', cursive;
+    color: greenyellow;
+    margin-left: 40px;
+    width: 250px;
+}
+
 a {
     font-family: 'Henny Penny', cursive;
     color: gray;
@@ -168,8 +175,12 @@ h2 {
     }
     .selfportrait {
         margin-left: 80px;
-        margin-top: 20px;
+        margin-top: 200px;
   }
+
+  .selfdescription {
+    margin-top: 77px;
+}
   .logos {
     display: none;
 }
