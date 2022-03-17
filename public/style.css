@@ -120,9 +120,15 @@ h2 {
     transform: scaleX(-1);
 }
 .selfportrait {
-    height: 300px; 
-    margin-top: 180px; 
-    margin-left: -180px;
+    height: 316px;
+    margin-top: 154px;
+    margin-left: -275px;
+}
+
+.logos {
+    height: 90px;
+    margin-top: 15px;
+    margin-left: -87px;
 }
 
 @keyframes spidey {
@@ -164,3 +170,7 @@ h2 {
         margin-left: 80px;
         margin-top: 20px;
   }
+  .logos {
+    display: none;
+}
+}
