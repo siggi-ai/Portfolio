@@ -2,16 +2,18 @@ body {
     background-color: black;
     background-color: rgb(46, 27, 59);
     background-image: url("/images/cobweb_blue.png");
+    font-family: 'Henny Penny', cursive;
 }
 
 a {
-    font-family: Shrikhand;
+    font-family: 'Henny Penny', cursive;
     color: gray;
     text-decoration: none;
 }
 
 .worklist {
     color: white;
+    font-family: 'Henny Penny', cursive;
 }
 
 .footnotes {
@@ -32,6 +34,7 @@ h2 {
     font-size: 20px;
     padding: 20px;
     display: flex;
+    font-family: 'Henny Penny', cursive;
 }
 
 .mondrianLink {
@@ -39,6 +42,7 @@ h2 {
     padding: 20px;
     margin-top: 10px;
     display: flex;
+    font-family: 'Henny Penny', cursive;
 }
 
 .top-page {
@@ -74,6 +78,7 @@ h2 {
 
 .about {
     transition: 0.3s;
+    font-family: 'Henny Penny', cursive;
 }
 
 .about:hover {
@@ -124,21 +129,9 @@ h2 {
     0%   {margin-left:275px; margin-top:-240px;}
     100% {margin-left:275px; margin-top:-190px;}
   }
-.contactpage {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin-left: 20px;
-}
-.aboutpage {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-left: 20px;
-}
 
 .worksText {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: font-family: 'Henny Penny', cursive;
 }
 
 .menulist{
