@@ -150,7 +150,7 @@ h2 {
   }
 
 .worksText {
-    font-family: font-family: 'Henny Penny', cursive;
+    font-family: 'Henny Penny', cursive;
 }
 
 .menulist{
@@ -187,6 +187,7 @@ h2 {
   .selfdescription {
     margin-top: 77px;
     margin-left: 70px;
+    font-size: 30px;
 }
   .logos {
     display: none;
