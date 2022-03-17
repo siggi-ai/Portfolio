@@ -13,10 +13,6 @@ app.get("/", function(req, res) {
     res.render("index.ejs");
 });
 
-app.get("/about", function(req, res) {
-    res.render("about.ejs");
-});
-
 app.get("/webPages", function(req, res) {
     res.render("webPages.ejs");
 });
@@ -25,64 +21,8 @@ app.get("/pictures", function(req, res) {
     res.render("pictures.ejs");
 });
 
-app.get("/contact", function(req, res) {
-    res.render("contact.ejs");
-});
-
 app.get("/mondrian", function(req, res) {
     res.render("virtual-mondrian/mondrian.ejs");
-});
-
-app.get("/comic1", function(req, res) {
-    res.render("comic1.ejs");
-});
-
-app.get("/comic2", function(req, res) {
-    res.render("comic2.ejs");
-});
-
-app.get("/comic3", function(req, res) {
-    res.render("comic3.ejs");
-});
-
-app.get("/auto", function(req, res) {
-    res.render("auto.ejs");
-});
-
-app.get("/uni1", function(req, res) {
-    res.render("uni1.ejs");
-});
-
-app.get("/uni2", function(req, res) {
-    res.render("uni2.ejs");
-});
-
-app.get("/anni", function(req, res) {
-    res.render("anni.ejs");
-});
-
-app.get("/ice", function(req, res) {
-    res.render("ice.ejs");
-});
-
-app.get("/frog", function(req, res) {
-    res.render("frog.ejs");
-});
-
-app.get("/room", function(req, res) {
-    res.render("room.ejs");
-});
-
-app.get("/spaceship", function(req, res) {
-    res.render("spaceship.ejs");
-});
-
-app.get("/texte", function(req, res) {
-    res.render("texte.ejs");
-});
-
-app.get("/text1", function(req, res) {
-    res.render("text1.ejs");
 });
 
 app.get("/movies", function(req, res) {
