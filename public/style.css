@@ -130,13 +130,18 @@ h2 {
 .selfportrait {
     height: 316px;
     margin-top: 154px;
-    margin-left: -275px;
+    margin-left: -380px;
 }
 
 .logos {
     height: 90px;
     margin-top: 15px;
     margin-left: -87px;
+}
+
+.vue-logo {
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 @keyframes spidey {
@@ -184,6 +189,9 @@ h2 {
     margin-left: 70px;
 }
   .logos {
+    display: none;
+}
+.vue-logo {
     display: none;
 }
 }
