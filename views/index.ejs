@@ -38,6 +38,8 @@
 
                 <img class="logos" src="images\logos.png" alt="html css js logos">
                 <img class="vue-logo" src="images\vue-logo.png" alt="vue logo">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="demo"></p>
             
                 <img class="selfportrait" src="images\p1.png" alt="self-portrait by siggi">
 
@@ -56,3 +58,15 @@
         Please contact me: <a style="color: #a4a4ff" href="mailto: smiley.face@gmx.de">smiley.face@gmx.de</a></p>
 </body>
 </html>
+
+<script>
+    setInterval(myTimer, 1000);
+    function myTimer () {
+    var today = new Date();
+    var date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' '+time;
+
+    document.getElementById("demo").innerHTML = dateTime;
+    }
+</script>

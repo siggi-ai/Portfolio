@@ -128,9 +128,10 @@ h2 {
     transform: scaleX(-1);
 }
 .selfportrait {
+    position: fixed;
     height: 316px;
     margin-top: 154px;
-    margin-left: -380px;
+    margin-left: 400px;
     border: 20px solid rgb(0 13 89);
 }
 
@@ -194,6 +195,9 @@ h2 {
     display: none;
 }
 .vue-logo {
+    display: none;
+}
+#demo {
     display: none;
 }
 }
