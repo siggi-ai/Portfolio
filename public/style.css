@@ -13,6 +13,11 @@ body {
     width: 250px;
 }
 
+#demo {
+    font-size: 25px;
+    color:#939393;
+}
+
 a {
     font-family: 'Henny Penny', cursive;
     color: gray;
